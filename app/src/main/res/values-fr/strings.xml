@@ -1,0 +1,53 @@
+<resources>
+
+    <string name="app_name">My Humber Droid</string>
+
+    <string name="main_title">Mobile project</string>
+    <string name="student_name_text">Dmitry Zuev</string>
+    <string name="student_id_text">n01112600</string>
+
+    <string name="courses_list_title">List of courses</string>
+
+
+    <string name="about_title">About mobile project</string>
+    <string name="about_text">Mobile project is an Android Application that illustrates the use of intents, different GUI controls and animation. Enchantment include use of an SQLite database and Google maps. It forms the core of limitless additions. Mobile project uses simple event handling and interaction between activities.</string>
+
+    <string name="contact_title">Please get in touch with us</string>
+    <string name="contact_str1">Humber college</string>
+    <string name="contact_str2">School of Media Studies and IT</string>
+    <string name="contact_str3">205 Humber College Blvd. Toronto, Ontario, Canada</string>
+    <string name="contact_str4">M9W 5L7</string>
+    <string name="contact_str5">contactus@humber.com</string>
+    <string name="contact_str6">http://www.humber.ca</string>
+    <string name="contact_str7">+1 (416) 6551479</string>
+
+    <string name="contact_text">
+        Humber college\n
+        School of Media Studies and IT\n
+        205 Humber College Blvd. Toronto, Ontario, Canada\n
+        M9W 5L7\n
+        contactus@humber.com\n
+        http://www.humber.ca\n
+        +14166551479\n
+    </string>
+
+
+    <string name="language_french">French</string>
+    <string name="language_english">English</string>
+
+    <string name="btn_course_list">My Course List</string>
+    <string name="btn_contact">Contact me @ Humber</string>
+    <string name="btn_about">About</string>
+    <string name="btn_exit">Exit</string>
+
+    <string-array name="courses">
+        <item>Création d\'applications pour appareils mobiles</item>
+        <item>Carrières</item>
+        <item>Composante d\'affaires J2EE</item>
+        <item>Open Source Programming</item>
+        <item>Programmation Open Source</item>
+        <item>Développement de composants Web</item>
+    </string-array>
+
+
+</resources>

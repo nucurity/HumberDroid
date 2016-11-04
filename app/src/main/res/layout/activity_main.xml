@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.projects.humberdroid.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/main_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/main_title"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/main_student_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingBottom="10dp"
+            android:paddingTop="20dp"
+            android:text="@string/student_name_text"
+            android:textColor="@color/grey"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/main_student_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingBottom="10dp"
+            android:text="@string/student_id_text"
+            android:textColor="@color/grey"
+            android:textSize="15dp" />
+
+        <RadioGroup
+            android:id="@+id/rg_language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="vertical"
+            >
+
+            <RadioButton
+                android:id="@+id/rb_french"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/language_french"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp" />
+
+            <RadioButton
+                android:id="@+id/rb_english"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/language_english"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_courses"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/btn_course_list"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            />
+
+        <Button
+            android:id="@+id/btn_contact"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/btn_contact"
+            android:textSize="20dp"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btn_about"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/btn_about"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            />
+
+        <Button
+            android:id="@+id/btn_exit"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/btn_exit"
+            android:textSize="20dp"
+            android:textAllCaps="false"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

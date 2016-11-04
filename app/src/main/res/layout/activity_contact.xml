@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/contact_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="@string/contact_title"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/contact_str1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_str1"
+        android:textSize="17sp"
+        android:autoLink="all"/>
+
+    <TextView
+        android:id="@+id/contact_str2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_str2"
+        android:textSize="17sp"
+        android:autoLink="all"/>
+
+    <TextView
+        android:id="@+id/contact_str3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_str3"
+        android:textSize="17sp"
+        android:autoLink="all"/>
+
+    <TextView
+        android:id="@+id/contact_str4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_str4"
+        android:textSize="17sp"
+        android:autoLink="all"/>
+
+    <TextView
+        android:id="@+id/contact_str5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_str5"
+        android:textSize="17sp"
+        android:autoLink="all"/>
+
+    <TextView
+        android:id="@+id/contact_str6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_str6"
+        android:textSize="17sp"
+        android:autoLink="all"/>
+
+    <TextView
+        android:id="@+id/contact_str7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_str7"
+        android:textSize="17sp"
+        android:autoLink="all"/>
+
+
+</LinearLayout>
